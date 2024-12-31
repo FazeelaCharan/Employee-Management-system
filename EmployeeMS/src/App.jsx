@@ -1,7 +1,12 @@
 import React from "react";
+import Login from "./components/Auth/Login";
 
 const App = () => {
-  return <div className="bg-red-800">App</div>;
+  return (
+    <>
+      <Login></Login>
+    </>
+  );
 };
 
 export default App;
